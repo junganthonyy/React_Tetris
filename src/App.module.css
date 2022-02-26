@@ -1,0 +1,10 @@
+.App {
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  /* background-color: rgba(66, 65, 65, 0.712); */
+}
+
+.Title {
+  font-family: PressStart2P;
+}

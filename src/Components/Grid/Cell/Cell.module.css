@@ -1,0 +1,14 @@
+.Cell {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+
+.CellWrapper {
+  width: 10%;
+  height: 100%;
+  box-sizing: border-box;
+  border-left: 2px transparent solid;
+  border-top: 2px transparent solid;
+}

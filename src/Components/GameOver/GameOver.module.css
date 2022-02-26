@@ -1,0 +1,52 @@
+.GameOver {
+  box-sizing: border-box;
+  width: 275px;
+  height: 150px;
+  background-color: white;
+  font-family: "PressStart2P";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: auto;
+  left: auto;
+  border: 5px solid black;
+}
+
+.Title {
+  font-family: inherit;
+  font-size: 25px;
+  text-align: center;
+  margin: 5px;
+}
+
+.Message {
+  font-family: inherit;
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.Button {
+  margin-top: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: rgb(47, 172, 47);
+  border: 2px solid black;
+  font-family: inherit;
+  font-size: 10px;
+  box-shadow: 0 3px #999;
+  outline: none;
+}
+
+.Button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+.Button:hover {
+  background-color: #3e8e41;
+}
